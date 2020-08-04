@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#square {
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  border: solid;
+  max-height: 192px;
+  min-width: 48px;
+}
+#clear-btn {
+  height: 50px;
+  margin-right: 20px;
+}
+.square-container {
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 960px;
+  max-height: 960px;
+  min-width: 960px;
+  min-height: 960px;
+  flex-flow: column wrap;
+}
